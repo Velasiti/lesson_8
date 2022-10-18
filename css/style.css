@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body{
+    font-family: "Lato";
+    color:#424551;
+}
+.content {
+    max-width: 1230px;
+    margin: 0 auto;
+}
+.title {
+    margin-bottom: 40px;
+}
+.title__container {
+    color:#1E212C;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+}
+.main-text {
+    margin-bottom: 48px;
+}
+.main-text__container {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+}
+.little-title {
+    margin-bottom: 24px;
+}
+.little-title__container{
+    color:#1E212C;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+}
+.list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    
+}
+.list-text ul {
+    margin-bottom: 184px;
+}
+.list-text li {
+    margin-bottom: 4px;
+    padding-left: 32px;
+    background: url('../img/icons/check.jpg') 0 4px no-repeat;    
+}
+
+.course {
+    margin-bottom: 8px;
+}
+
+.course__container {
+    color:#1E212C;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.cody {
+    margin-bottom: 16px;
+}
+
+.cody__container {
+    color:#1E212C;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+}
+
+.senior {
+    margin-bottom: 32px;
+}
+
+.senior__container {
+    color:#787A80;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.second-list-text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+}
+.second-list-text ul {
+    margin-bottom: 32px;
+}
+.second-list-text li {
+    margin-bottom: 4px;
+    padding-left: 24px;
+    min-height: 35px;
+}
+
+.rate {
+    background: url('../img/icons/Star.jpg') 0 4px no-repeat;
+}
+
+.courses {
+    background: url('../img/icons/Play.jpg') 0 4px no-repeat;
+}
+
+.students {
+    background: url('../img/icons/Profile.jpg') 0 4px no-repeat;
+}
+
+.homework{
+    max-width: 810px;
+    margin: 0 auto;
+}
+.text{
+    background-color: yellow;
+    color: blue;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.text:hover{
+    background-color: green;
+}
+.block {
+    background-color: darkcyan;
+    color: salmon;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.block:hover .block__item{
+    visibility: visible;
+    opacity: 1;
+}
+.block__item {
+    opacity: 0;
+    visibility: hidden;
+}
+.link:hover {
+    color: blue;
+    text-decoration: underline;
+}
+.link:active {
+    color: blueviolet; 
+}
+.link {
+    margin-bottom: 30px;
+}
+.list{
+    margin-bottom: 30px;
+}
+.list li {
+    margin-bottom: 7px;
+    
+}
+.list a:visited {
+    color: blue;
+}
+
+.menu {
+    margin-bottom: 30px;
+}
+.menu ul ul li::before{
+    background: url('../img/icons/check.jpg') 0 0 no-repeat;
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 7px;
+}
+.menu ul ul li::after {
+    background: url('../img/icons/check.jpg') 0 0 no-repeat;
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-left: 7px;
+}
+.menu ul {
+    margin-left: 20px;
+}
+.menu ul ul {
+    display: none;
+}
+
+.menu ul li:hover ul {
+    display: block;
+}
+
+.second-link {
+    margin-bottom: 30px;
+}
+
+.second-link a:focus {
+    outline: 1px solid red;
+}
+
+.example {
+    background-color: green;
+    color: aliceblue;
+    padding: 20px;
+    margin-bottom: 30px;
+    display: none;
+}
+.example:target {
+    display: block;
+}
+
+.paragraph {
+    background-color: orchid;   
+    padding: 20px;
+    line-height: 120%;
+}
+.paragraph p:not(:last-child){
+    margin-bottom: 15px;
+}
+
+.paragraph p:first-child {
+    text-transform: uppercase;
+}
+
+.paragraph p:last-of-type {
+    color: aqua;
+}
+
+.paragraph p:nth-child(2){
+    background-color: blue;
+    color: black;
+}
+
+.paragraph p:nth-child(odd) {
+    color: aliceblue;
+}
+.lorem {
+    margin-bottom: 30px;
+}
+
+.retreat {
+    background-color: olivedrab;
+    padding: 20px;
+    color: azure;
+}
+
+
+.heading {
+    font-weight: 900;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.heading:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.dolor {
+    line-height: 130%;
+    margin-bottom: 30px;
+}
+.dolor:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.site {
+    color: blue;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    display: inline-block
+}
+.site:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
